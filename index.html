@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kareem Mohey — Product Manager</title>
+  <meta name="description" content="Product Manager with 10+ years of experience across EdTech, e-commerce, and telecom. View my resume and get in touch." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======================== NAV ======================== -->
+  <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-colors duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="#hero" class="text-white font-heading font-bold text-lg tracking-tight">Kareem Mohey</a>
+
+      <!-- Desktop links -->
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#about" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">About</a>
+        <a href="#experience" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">Experience</a>
+        <a href="#education" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">Education</a>
+        <a href="#skills" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">Skills</a>
+        <a href="#awards" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">Awards</a>
+        <a href="#contact" class="nav-link text-sm text-white opacity-70 hover:opacity-100 transition-opacity cursor-pointer">Contact</a>
+        <a href="/kareem-mohey-cv-product.pdf" download class="ml-2 text-sm font-medium text-primary bg-white px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer">Download CV</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button id="menu-btn" class="md:hidden text-white p-2 cursor-pointer" aria-label="Toggle menu">
+        <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile menu overlay -->
+    <div id="mobile-nav" class="mobile-nav fixed inset-0 top-16 bg-primary z-40 flex flex-col items-center justify-center gap-8 md:hidden">
+      <a href="#about" class="text-white text-xl font-heading">About</a>
+      <a href="#experience" class="text-white text-xl font-heading">Experience</a>
+      <a href="#education" class="text-white text-xl font-heading">Education</a>
+      <a href="#skills" class="text-white text-xl font-heading">Skills</a>
+      <a href="#awards" class="text-white text-xl font-heading">Awards</a>
+      <a href="#contact" class="text-white text-xl font-heading">Contact</a>
+      <a href="/kareem-mohey-cv-product.pdf" download class="text-primary bg-white px-6 py-3 rounded-lg font-medium text-lg">Download CV</a>
+    </div>
+  </nav>
+
+
+  <!-- ======================== HERO ======================== -->
+  <section id="hero" class="bg-primary min-h-[90vh] md:min-h-screen flex items-center relative overflow-hidden">
+    <!-- Subtle geometric accent -->
+    <div class="absolute inset-0 opacity-[0.04]" style="background-image: radial-gradient(circle at 70% 30%, white 1px, transparent 1px); background-size: 40px 40px;"></div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-24 md:py-0">
+      <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+        <!-- Photo -->
+        <div class="shrink-0">
+          <img
+            src="/photo.jpg"
+            alt="Kareem Mahmoud Mohey El-Din"
+            class="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-2xl object-cover object-top shadow-2xl ring-4 ring-white/10"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="text-center md:text-left">
+          <p class="text-secondary font-medium text-sm tracking-wide mb-3">Hello, I'm</p>
+          <h1 class="text-white font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight">
+            Kareem Mahmoud<br />Mohey El-Din
+          </h1>
+          <p class="text-white/90 text-xl md:text-2xl font-heading font-medium mt-4">Product Manager</p>
+          <p class="text-white/60 text-base md:text-lg max-w-lg mt-4 leading-relaxed">
+            10+ years across EdTech, e-commerce, and telecom — driving product strategy, roadmaps, and delivery from operations into product leadership.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
+            <a href="#contact" class="bg-secondary hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-lg transition-colors text-center cursor-pointer">Get in Touch</a>
+            <a href="/kareem-mohey-cv-product.pdf" download class="bg-white/10 hover:bg-white/20 text-white font-medium px-8 py-3 rounded-lg border border-white/20 transition-colors text-center cursor-pointer">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== ABOUT ======================== -->
+  <section id="about" class="py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-primary mb-10">About Me</h2>
+      <div class="max-w-3xl mt-6">
+        <p class="text-lg leading-relaxed text-muted">
+          Product Manager with 10+ years of experience across EdTech, e-commerce, and telecom, moving from operations into product leadership. Led the strategy, roadmap, and delivery of Teacher Hub and an Arabic AI authoring platform at Nahdet Misr, and now leads product strategy and feature development for mobile and web applications as a freelancer.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+          <div class="text-center">
+            <p class="text-3xl font-heading font-bold text-primary">10+</p>
+            <p class="text-sm text-muted mt-1">Years Experience</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-heading font-bold text-primary">3</p>
+            <p class="text-sm text-muted mt-1">Industries</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-heading font-bold text-primary">8K+</p>
+            <p class="text-sm text-muted mt-1">Users Reached (Month 1)</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-heading font-bold text-primary">50%</p>
+            <p class="text-sm text-muted mt-1">Cost Reduction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== EXPERIENCE ======================== -->
+  <section id="experience" class="py-20 md:py-28 bg-bg-alt">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-primary mb-12">Experience</h2>
+
+      <div class="max-w-3xl mt-6 space-y-10">
+
+        <!-- Freelance PM -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Product Manager</h3>
+              <p class="text-secondary font-medium">Freelance · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Jul 2026 – Present</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Lead product strategy, user experience, operations SOPs, and feature enhancement for three mobile and web applications across EdTech and digital products.</li>
+            <li>Define product backlogs, functional requirements, prioritization frameworks, and milestone roadmaps in partnership with operations and engineering teams.</li>
+            <li>Establish agile delivery workflows and cross-functional feedback loops to accelerate release cycles and align product iterations with business KPIs.</li>
+            <li>Build applications using Vibe Coding: one application is currently in launch, and a second is upcoming.</li>
+          </ul>
+        </div>
+
+        <!-- Nahdet Misr PM -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Product Manager</h3>
+              <p class="text-secondary font-medium">Nahdet Misr Publishing Group · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Jun 2025 – Jun 2026</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li><strong class="text-text">Teacher Hub:</strong> Led product strategy, vision, roadmap, and delivery across iOS and Android, translating teacher pain points and business needs into features, workflows, and BRDs.</li>
+            <li>Reached 8,000 active users within the first month through teacher engagement, product communication, and onboarding, including launch webinars and teacher training.</li>
+            <li>Coordinated the integration of Al-Adwaa digital assets — semester videos, question banks, and summaries — so content was delivered consistently across all Nahdet Misr products.</li>
+            <li><strong class="text-text">AI Authoring Tool (NM-AI):</strong> Developed the product strategy and end-to-end BRDs for an Arabic AI-powered content authoring platform, with content generation and assessment workflows based on Bloom's Taxonomy.</li>
+            <li>Defined the database structure, content generation logic, and initial UI wireframes, working with Development, SAP, Content, Sales, and Marketing teams.</li>
+          </ul>
+        </div>
+
+        <!-- Digital Operations Lead -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Digital Operations Lead</h3>
+              <p class="text-secondary font-medium">Nahdet Misr Publishing Group · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Dec 2023 – Jun 2025</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Reduced operating costs for Al-Adwaa Center by 50% while supporting a 200% increase in student volume through process improvements and automation.</li>
+            <li>Built internal tools using AppSheet, Google Sheets, and Excel to automate daily tasks, organize workflows, and track team performance.</li>
+            <li>Managed and mentored two teams — Digital Operations and Student Engagement — ensuring smooth execution of content, session delivery, and student support.</li>
+          </ul>
+        </div>
+
+        <!-- Dealtio -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Operations Manager</h3>
+              <p class="text-secondary font-medium">Dealtio E-Commerce · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Jul 2021 – Oct 2023</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Built ERP workflows for 5 departments and 30 employees, including task timelines and automatic task assignment, improving operational efficiency by 50%.</li>
+            <li>Improved operational processes and workflows, contributing to a 50% increase in profitability, and reduced Average Handling Time from 10 minutes to 3 minutes.</li>
+            <li>Managed 2 teams with 11 operations staff; trained and coached employees, contributing to a 60% increase in team productivity.</li>
+          </ul>
+        </div>
+
+        <!-- Ibtkar -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Operations Manager <span class="text-muted text-sm font-normal">(Part-time)</span></h3>
+              <p class="text-secondary font-medium">Ibtkar & Tatweer for Constructions · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Oct 2022 – Dec 2023</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Renegotiated supplier contracts and optimized procurement cycles, reducing raw material and logistical costs by 30% quarterly.</li>
+            <li>Streamlined workflows between on-site teams and headquarters, improving project delivery timelines by 20%, and implemented an inventory tracking system that reduced material waste by 10%.</li>
+          </ul>
+        </div>
+
+        <!-- Vodafone Service Expert -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Service Expert</h3>
+              <p class="text-secondary font-medium">Vodafone Egypt · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Aug 2018 – Jul 2021</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Optimized core processes by analyzing weekly performance statistics, and resolved complex technical issues across 9 different systems/applications.</li>
+          </ul>
+        </div>
+
+        <!-- Vodafone Sales -->
+        <div class="timeline-item pb-10">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-3">
+            <div>
+              <h3 class="font-heading font-semibold text-xl text-text">Store Sales Advisor</h3>
+              <p class="text-secondary font-medium">Vodafone Egypt · Cairo</p>
+            </div>
+            <span class="text-sm text-muted whitespace-nowrap">Sep 2016 – Aug 2018</span>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li>Consistently exceeded sales targets, leading to promotion to the Service Expert role.</li>
+          </ul>
+        </div>
+
+        <!-- Early Career -->
+        <div class="timeline-item">
+          <div class="mb-3">
+            <h3 class="font-heading font-semibold text-xl text-text">Early Career</h3>
+          </div>
+          <ul class="space-y-2 text-muted text-[0.9375rem] leading-relaxed">
+            <li><strong class="text-text">Store Manager</strong> — CompuMe (2014–2016): Managed P&L, stock, and staff.</li>
+            <li><strong class="text-text">Technical Support</strong> — Alpha Egypt for Computer Systems (2012–2014).</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== EDUCATION ======================== -->
+  <section id="education" class="py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-primary mb-12">Education</h2>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="bg-card rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-base text-text">Special Diploma in Mental Health</h3>
+          <p class="text-muted text-sm mt-1">Faculty of Education, El-Sadat University</p>
+        </div>
+
+        <div class="bg-card rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-base text-text">General Diploma in Education</h3>
+          <p class="text-muted text-sm mt-1">Faculty of Education, Al-Azhar University</p>
+        </div>
+
+        <div class="bg-card rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-base text-text">Bachelor of Business</h3>
+          <p class="text-muted text-sm mt-1">International Relations — Faculty of Commerce, Helwan University</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== SKILLS ======================== -->
+  <section id="skills" class="py-20 md:py-28 bg-bg-alt">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-primary mb-12">Core Competencies</h2>
+
+      <div class="space-y-8 mt-6">
+        <!-- Product -->
+        <div>
+          <h3 class="font-heading font-semibold text-lg text-text mb-3">Product</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-badge">Product Strategy & Roadmapping</span>
+            <span class="skill-badge">BRD/PRD Creation</span>
+            <span class="skill-badge">Freemium Monetization</span>
+            <span class="skill-badge">Go-To-Market Strategy</span>
+            <span class="skill-badge">North Star Framework</span>
+            <span class="skill-badge">UI/UX Optimization</span>
+            <span class="skill-badge">Competitor Analysis</span>
+          </div>
+        </div>
+
+        <!-- AI & Development -->
+        <div>
+          <h3 class="font-heading font-semibold text-lg text-text mb-3">AI & Development</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-badge">Vibe Coding</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div>
+          <h3 class="font-heading font-semibold text-lg text-text mb-3">Tools</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-badge">Jira</span>
+            <span class="skill-badge">Azure DevOps</span>
+            <span class="skill-badge">Trello</span>
+            <span class="skill-badge">ClickUp</span>
+            <span class="skill-badge">AppSheet</span>
+            <span class="skill-badge">Figma</span>
+            <span class="skill-badge">Miro</span>
+            <span class="skill-badge">Power BI</span>
+            <span class="skill-badge">Advanced Excel</span>
+            <span class="skill-badge">Microsoft Office</span>
+            <span class="skill-badge">Antigravity</span>
+            <span class="skill-badge">Claude</span>
+          </div>
+        </div>
+
+        <!-- Operations -->
+        <div>
+          <h3 class="font-heading font-semibold text-lg text-text mb-3">Operations</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-badge">ERP Implementation</span>
+            <span class="skill-badge">Workflow Automation</span>
+            <span class="skill-badge">P&L Optimization</span>
+            <span class="skill-badge">Cost Reduction</span>
+            <span class="skill-badge">SLA & AHT Optimization</span>
+          </div>
+        </div>
+
+        <!-- Leadership -->
+        <div>
+          <h3 class="font-heading font-semibold text-lg text-text mb-3">Leadership</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-badge">Cross-Functional Alignment</span>
+            <span class="skill-badge">Stakeholder Management</span>
+            <span class="skill-badge">Team Mentorship</span>
+            <span class="skill-badge">Change Management</span>
+            <span class="skill-badge">Digital Transformation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== AWARDS ======================== -->
+  <section id="awards" class="py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-primary mb-12">Awards</h2>
+
+      <div class="grid sm:grid-cols-2 gap-6 mt-6">
+        <div class="flex items-start gap-4 bg-card rounded-xl p-6 border border-border">
+          <span class="shrink-0 w-14 h-14 rounded-lg bg-amber-50 flex items-center justify-center">
+            <svg class="w-7 h-7 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l3.057-3L12 4.5 15.943 0 19 3l-1 7H6L5 3zM12 15l-3-3h6l-3 3zm-4 1h8l1 5H7l1-5z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L3.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+          </span>
+          <div>
+            <h3 class="font-heading font-semibold text-text">Excellent Performance</h3>
+            <p class="text-muted text-sm">Nahdet Misr Group · 2025</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-card rounded-xl p-6 border border-border">
+          <span class="shrink-0 w-14 h-14 rounded-lg bg-amber-50 flex items-center justify-center">
+            <svg class="w-7 h-7 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L3.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+          </span>
+          <div>
+            <h3 class="font-heading font-semibold text-text">Customer Service Excellence & Best Manager</h3>
+            <p class="text-muted text-sm">Dealtio · 2022</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-card rounded-xl p-6 border border-border">
+          <span class="shrink-0 w-14 h-14 rounded-lg bg-amber-50 flex items-center justify-center">
+            <svg class="w-7 h-7 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L3.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+          </span>
+          <div>
+            <h3 class="font-heading font-semibold text-text">Top Performer</h3>
+            <p class="text-muted text-sm">Vodafone Egypt · 2019 & 2020</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 bg-card rounded-xl p-6 border border-border">
+          <span class="shrink-0 w-14 h-14 rounded-lg bg-amber-50 flex items-center justify-center">
+            <svg class="w-7 h-7 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L3.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+          </span>
+          <div>
+            <h3 class="font-heading font-semibold text-text">Best Store Manager</h3>
+            <p class="text-muted text-sm">CompuMe · 2015</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== CONTACT ======================== -->
+  <section id="contact" class="py-20 md:py-28 bg-primary text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title font-heading font-bold text-3xl md:text-4xl text-white mb-12 after:bg-white">Let's Connect</h2>
+
+      <div class="grid md:grid-cols-2 gap-12 mt-6">
+        <div>
+          <p class="text-white/80 text-lg leading-relaxed max-w-md">
+            Whether you have a product challenge, a collaboration idea, or just want to say hello — I'd love to hear from you.
+          </p>
+
+          <div class="space-y-6 mt-10">
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+              </div>
+              <a href="mailto:Kareemmoheyeldin@gmail.com" class="text-white/90 hover:text-white transition-colors">Kareemmoheyeldin@gmail.com</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+              </div>
+              <a href="tel:+201002058000" class="text-white/90 hover:text-white transition-colors">(+20) 100 205 8000</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <a href="https://www.linkedin.com/in/kareem-m-mohey-b869b7b8" target="_blank" rel="noopener noreferrer" class="text-white/90 hover:text-white transition-colors">LinkedIn Profile</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+              </div>
+              <span class="text-white/90">Cairo, Egypt</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center">
+          <a href="mailto:Kareemmoheyeldin@gmail.com" class="inline-flex items-center gap-3 bg-white text-primary font-heading font-semibold text-lg px-10 py-4 rounded-xl hover:bg-gray-100 transition-colors cursor-pointer shadow-lg">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+            Send Me an Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="bg-hero-overlay text-white/60 py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm">&copy; 2026 Kareem Mahmoud Mohey El-Din. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="https://www.linkedin.com/in/kareem-m-mohey-b869b7b8" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors cursor-pointer" aria-label="LinkedIn">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:Kareemmoheyeldin@gmail.com" class="hover:text-white transition-colors cursor-pointer" aria-label="Email">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
